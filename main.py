@@ -1,8 +1,14 @@
 ##Importamos
+from Functions import presentacion
 from fastapi import FastAPI
-import Src.Functions as Functions
-from Src.Functions import *
+import Functions as Functions
+from Functions import *
 from fastapi.responses import HTMLResponse
+import pickle
+import pandas as pd
+import numpy as np
+import gzip
+import json
 
 #http://127.0.0.1:8000
 #https://fastapi-app-vf4c.onrender.com
