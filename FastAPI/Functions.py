@@ -5,8 +5,11 @@ import numpy as np
 import gzip
 import json
 
+
+#Genera una página de presentación HTML 
+##para la API Steam de consultas de videojuegos.
+
 def presentacion():
-    #Genera una página de presentación HTML para la API Steam de consultas de videojuegos.
     return '''
     <html>
         <head>
@@ -41,10 +44,10 @@ def presentacion():
             <h1>Deploy Render API de consultas de la plataforma de juegos Steam</h1>
             <p>API de Steam donde se pueden hacer diferentes consultas sobre Endpoints de la plataforma de videojuegos.</p>
             <br>
-            <p>Haciendo click en la imagen debajo <br> <a href="https://marcelo-yuba-pi1.onrender.com/docs"><img alt="LinkedIn" src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" style="display: inline-block; width: 200px;"></a><br> Ingresa a la api</p>
+            <p>Haciendo click en la imagen debajo <br> <a href="XXXXX"><img alt="LinkedIn" src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" style="display: inline-block; width: 200px;"></a><br> Ingresa a la api</p>
             <br>
             <p> El desarrollo de este proyecto esta en</p>
-            <p><a href="https://github.com/marceloyuba/Proyecto-Individual-P1"><img alt="GitHub" src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png" style=" width: 120px"></a></p>
+            <p><a href="https://github.com/hansonvel96/PI01_Steam_MLops/tree/master"><img alt="GitHub" src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png" style=" width: 120px"></a></p>
             <p align='center'>GitHub</p>
         </body>
     </html>
